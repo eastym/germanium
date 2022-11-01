@@ -99,11 +99,19 @@ func (f *PNGFormatter) format(w io.Writer, style *chroma.Style, tokens []chroma.
 					continue
 				}
 
-				px := f.drawer.MeasureString(fmt.Sprintf("%c", c)).Round()
+				if c == ' ' {
+					f.drawer.Dot.X += f.drawer.MeasureString(" ")
+					continue
+				}
 
+				px := f.drawer.MeasureString(fmt.Sprintf("%c",c)).Round()
+				// px := f.drawer.MeasureString(fmt.Sprintf("■")).Round()
+
+				
 				f.drawer.Dot.X += fixed.Int26_6(px)
 				f.drawer.Dot.Y = y
-				f.drawer.DrawString(fmt.Sprintf("%c", c))
+				f.drawer.DrawString(fmt.Sprintf("%c",c))
+				// f.drawer.DrawString(fmt.Sprintf("■"))
 			}
 		}
 	}
