@@ -9,10 +9,10 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/alecthomas/chroma/v2"
-	"github.com/alecthomas/chroma/v2/formatters"
-	"github.com/alecthomas/chroma/v2/lexers"
-	"github.com/alecthomas/chroma/v2/styles"
+	"github.com/eastym/chroma"
+	"github.com/eastym/chroma/formatters"
+	"github.com/eastym/chroma/lexers"
+	"github.com/eastym/chroma/styles"
 	"golang.org/x/image/font"
 )
 

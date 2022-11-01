@@ -8,7 +8,7 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/alecthomas/chroma/v2"
+	"github.com/eastym/chroma"
 	"golang.org/x/image/font"
 	"golang.org/x/image/math/fixed"
 )
