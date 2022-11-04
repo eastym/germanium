@@ -71,7 +71,7 @@ germanium --no-window-access-bar -o main.png main.go -c
 
 ### GitHub releases
 
-You can download from [here](https://github.com/matsuyoshi30/germanium/releases).
+You can download from [here](https://github.com/eastym/germanium/releases).
 
 ### Arch Linux
 
@@ -82,7 +82,7 @@ yay germanium
 ### Build from source
 
 ```
-git clone https://github.com/matsuyoshi30/germanium
+git clone https://github.com/eastym/germanium
 cd cmd/germanium && go install
 ```
 
@@ -93,7 +93,7 @@ cd cmd/germanium && go install
 ## Related Projects
 
 - [denops-germanium.vim](https://github.com/skanehira/denops-germanium.vim) is a Vim/Neovim plugin for germanium by [skanehira](https://github.com/skanehira).
-- [germanium.el](https://github.com/matsuyoshi30/germanium-el) is a Emacs package for germanium.
+- [germanium.el](https://github.com/eastym/germanium-el) is a Emacs package for germanium.
 
 ## LICENSE
 

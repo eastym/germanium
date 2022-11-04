@@ -1,4 +1,4 @@
-module github.com/matsuyoshi30/germanium
+module github.com/eastym/germanium
 
 go 1.16
 
