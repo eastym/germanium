@@ -8,7 +8,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/alecthomas/chroma/v2/styles"
+	"github.com/eastym/chroma/v2/styles"
 	"github.com/eastym/germanium"
 	"github.com/golang/freetype/truetype"
 	flags "github.com/jessevdk/go-flags"
