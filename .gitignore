@@ -1,3 +1,11 @@
 .DS_Store
 germanium
 !germanium/
+Makefile
+output.png
+assets/img/sqfinder.png
+assets/img/animation/animationRai.png
+assets/img/sqfinder/sqfinderRai.png
+assets/img/sqfinder/sqfinderRes.png
+assets/img/animation/animationRes.png
+
